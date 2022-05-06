@@ -1,0 +1,64 @@
+:root {
+	--main-color: #31c68b;
+	--main-bg-color: #222222;
+	--footer-color: #111111;
+}
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+/******************HEADER**********************/
+#header-section {
+	background-color: white;
+	height: 100px;
+}
+
+header a {
+	color: gray;
+	padding-right: 30px;
+}
+
+header a:hover {
+	color: black;
+}
+
+#menu-icon {
+	width: 16px;
+}
+/******************HERO SECTION*****************/
+#hero-section {
+	background-image: url(/imgs/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding-bottom: 25%;
+}
+#hero-title {
+	background-color: var(--main-color);
+}
+
+/******************PORTFOLIO SECTION*****************/
+
+#recent-work-pic {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 300px;
+}
+#blog-pic {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 415px;
+}
+/******************FOOTER SECTION*****************/
+footer {
+	color: white;
+	background-color: var(--main-bg-color);
+}
+
+footer table {
+	border-color: rgb(77, 76, 76);
+}
+#footer-bottom {
+	background-color: var(--footer-color);
+}
